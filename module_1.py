@@ -1,5 +1,6 @@
-def add_correct(x,y):
-    return x+y
+class Add:
+    def add_correct(self, x, y):
+        return x+y
 
-def add_incorrect(x,y):
-    return x*y
+    def add_incorrect(self, x, y):
+        return x*y
